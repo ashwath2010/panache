@@ -7,7 +7,7 @@ import java.util.List;
 @Produces(MediaType.APPLICATION_JSON)
 public class RTM_USERResource {
     @Inject
-    RTM_USER repo;
+    RTM_USERRepository repo;
 
     @GET
     public List<RTM_USER> getAllRTM_USER() {
